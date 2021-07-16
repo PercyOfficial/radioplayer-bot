@@ -4,15 +4,36 @@
 - A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
 - Supports Live streaming from YouTube.
 
-## How to deploy 
+### you can get session use this bot - * [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@vcsession/VCPlayBot?v=1)
 
-Click the below button to watch the video tutorial on deploying
 
-<a href="https://youtu.be/FKaAU4Pr2bw"><img src="https://img.shields.io/badge/How%20To%20Deploy%20v3.0%20Latest-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/FKaAU4Pr2bw"><img src="https://img.shields.io/youtube/views/FKaAU4Pr2bw?style=social">
 
-<a href="https://youtu.be/FGZr-V2lCo8"><img src="https://img.shields.io/badge/How%20To%20Deploy%20v2.0%20Old-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/FGZr-V2lCo8"><img src="https://img.shields.io/youtube/views/FGZr-V2lCo8?style=social">
+### Deploy to Heroku 🔥🕺 
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/radioplayer-bot)
+
+###              The easiest way to deploy this Song Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/radioplayer-bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+
+
+###   <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+###  🧙‍♀️ Deploy Guide
+<a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://telegra.ph/file/beca543cd87ec72be6069.jpg"></a>
+
+### Developer :
+
+### [slbotzone](https://t.me/slbotzone)
+
+<img align="left" src="https://github.com/RazorKenway/RazorKenway/raw/main/Developer.gif" style="max-width:100%;">
+
+[![Youtube](https://img.shields.io/badge/YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1)&nbsp;
+[![Telegram](https://img.shields.io/badge/slbotzone%20Team-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/slbotzone)&nbsp;
+[![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/SL-Geek-Show-yt-103654258471929/)&nbsp;
+[![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp;
+[![Github](https://img.shields.io/badge/Github-000000?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/youtubeslgeekshow) 
+
+
+
 
 ## NOTE:
 
@@ -20,17 +41,7 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LushaiMusic/VCMusicPlayer)
-
-### Deploy to VPS
-
-```sh
-git clone https://github.com/LushaiMusic/VCMusicPlayer
-cd VCMusicPlayer
-pip3 install -r requirements.txt
-# <Create Variables appropriately>
-python3 main.py
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/radioplayer-bot)
 
 # Configs Vars:
 1. `API_ID` : Get From my.telegram.org
@@ -52,7 +63,7 @@ python3 main.py
 - Use /play <song name> to play song from youtube and /dplay <song name> to play from Deezer.
 - Use /help to know about other commands.
 
-**Features**
+**Features 🔆 **
 
 - Playlist, queue
 - Supports Live streaming from youtube
@@ -63,40 +74,6 @@ python3 main.py
 - Automatic restart even if heroku restarts.
 
 #### Support
-Join Now Telegram [VC Music Live Sets](https://t.me/c/1481808444/131)
+Join Now Telegram [support chat ](https://t.me/slbotzone)
+                  [Bot updates ](https://t.me/sl_bot_zone)
 
-## Requirements
-
-- Python 3.6 or higher.
-- A
-  [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api)
-  and a Telegram account.
-- [FFmpeg Python](https://www.ffmpeg.org/)
-- Telegram [String Session](http://t.me/UsePyrogramBot) of the account.
-- Userbot Needs To Be Admin In The Channel or Group.
-- Must Start A Voice Chat In Channel/Group Before Running The Bot.
-
-## License
-```sh
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-```
-
-## Credits
-
-- [Zaute Km](https://github.com/Zaute-Km) [Dev]
-- [Dash Eclipse](https://github.com/dashezup) [For tgvc_userbot]
-- [Marshal X](https://github.com/MarshalX) [For pytgcalls]
