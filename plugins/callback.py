@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km | TGVCSETS
+radio player, Telegram Voice Chat Userbot
+Copyright (C) 2021  youtubeslgeekshow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -19,14 +19,14 @@ from config import Config
 playlist=Config.playlist
 
 HELP = """
-**User Commands:**
+**🏷 Common Commands ♻️**
 ▷/play **[song name]/[yt link]**: Reply to an audio file.
 ▷/dplay **[song name]:** Play music from Deezer.
 ▷/player:  Show current playing song.
 ▷/help: Show help for commands.
 ▷/playlist: Shows the playlist.
 
-**Admin Commands:**
+**🏷 Group Admin Commands 🔰**
 ▷/skip **[n]** ...  Skip current or n where n >= 2
 ▷/join: Join voice chat.
 ▷/leave: Leave current voice chat
@@ -47,8 +47,9 @@ HELP = """
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
     if query.from_user.id not in Config.ADMINS and query.data != "help":
+        await query.sticker("CAACAgIAAxkBAAELw3Jg8Smn-c_7JPfrRhL6pE-aeN1gFAAC5AcAAkb7rATqvj3pHSd59R4E")
         await query.answer(
-            "Only Admin can do this!",
+            "Only Admin can do this! 👮‍♀️",
             show_alert=True
             )
         return
@@ -153,14 +154,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+                InlineKeyboardButton("📦 Source Code 📦 ", url='https://github.com/youtubeslgeekshow/radioplayer-bot'),
             ],
             [
-               InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-               InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+               InlineKeyboardButton('🔔 Bot update Channel', url='https://t.me/sl_bot_zone'),
+               InlineKeyboardButton('👨‍💻 Bot support group', url='https://t.me/slbotzone'),
             ],
             [
-               InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+               InlineKeyboardButton('👨‍💻Developer ', url='https://t.me/supunma'),
         
             ]
         ]
