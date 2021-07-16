@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km | TGVCSETS
+radio player, Telegram Voice Chat Userbot
+Copyright (C) 2021  youtubeslgeekshow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -51,7 +51,7 @@ async def yplay(_, message: Message):
         for administrator in grpadmins:
             admins.append(administrator.user.id)
         if message.from_user.id not in admins:
-            m=await message.reply_sticker("CAADBQADGgIAAmcqmVXtrFROnZYCrBYE")
+            m=await message.reply_sticker("CAACAgEAAxkBAAELws9g8SPU_feyi8fvvWNanOllUyIzkAACIAgAAuN4BAABwMV8viOGtGAeBA")
             await mp.delete(m)
             await message.delete()
             return
@@ -235,7 +235,7 @@ async def deezer(_, message):
         for administrator in grpadmins:
             admins.append(administrator.user.id)
         if message.from_user.id not in admins:
-            k=await message.reply_sticker("CAADBQADGgIAAmcqmVXtrFROnZYCrBYE")
+            k=await message.reply_sticker("CAACAgEAAxkBAAELws9g8SPU_feyi8fvvWNanOllUyIzkAACIAgAAuN4BAABwMV8viOGtGAeBA")
             await mp.delete(k)
             await message.delete()
             return
