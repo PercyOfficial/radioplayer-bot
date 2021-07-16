@@ -4,7 +4,7 @@
 - A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
 - Supports Live streaming from YouTube.
 
-### you can get session use this bot - * [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@vcsession/VCPlayBot?v=1)
+
 
 
 
@@ -47,7 +47,7 @@
 1. `API_ID` : Get From my.telegram.org
 2. `API_HASH` : Get from my.telegram.org
 3. `BOT_TOKEN` : @Botfather
-4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://replit.com/@ZauteKm/GenerateStringSession)
+4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://replit.com/@vcsession/VCPlayBot?v=1)
 5. `CHAT` : ID of Channel/Group where the bot plays Music.
 6. `LOG_GROUP` : Group to send Playlist, if CHAT is a Group
 7. `ADMINS` : ID of users who can use admin commands.
