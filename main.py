@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km
+radio player, Telegram Voice Chat Userbot
+Copyright (C) 2021  youtubeslgeekshow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -22,7 +22,7 @@ from pyrogram.raw import functions, types
 
 CHAT=Config.CHAT
 bot = Client(
-    "Musicplayer",
+    "radio player",
     Config.API_ID,
     Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
