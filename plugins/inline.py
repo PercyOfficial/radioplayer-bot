@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km | TGVCSETS
+radio player, Telegram Voice Chat Userbot
+Copyright (C) 2021  youtubeslgeekshow
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -21,24 +21,24 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('🏃 Deploy to Heroku 🏃', url='https://heroku.com/deploy?template=https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton('➕ Add me to your Group 🎙', url='https://t.me/{BOT_USERNAME}?startgroup=true'),
     ],
     [
-        InlineKeyboardButton('👨‍🎤 Play Music', url=f'https://t.me/{USERNAME}'),
-        InlineKeyboardButton('How to Deploy 🤓', url='https://t.me/c/1481808444/131'),
+        InlineKeyboardButton('🔔 Bot update Channel', url=f'https://t.me/sl_bot_zone'),
+        InlineKeyboardButton('👨‍💻 Bot support group', url='https://t.me/slbotzone'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help')       
+        InlineKeyboardButton('🛠 Help & Commands 🛠', callback_data='help')       
     ]
     ]
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "ORU_MANDAN_PM_VANNU":
+    if query.query == "♻️ contact me on telegram @supunma":
         answers.append(
             InlineQueryResultArticle(
-                title="Deploy",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/LushaiMusic/VCMusicPlayer) below.</b>", disable_web_page_preview=True),
+                title="🧑‍🔧 HOW TO USE THIS BOT",
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b> 😥 You can't use this bot in your group, for that you have to make your own bot from the [📦  SOURCE CODE 📦 ](https://github.com/youtubeslgeekshow/radioplayer-bot) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
