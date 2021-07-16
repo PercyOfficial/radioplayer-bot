@@ -59,7 +59,7 @@
     },
     "STREAM_URL": {
       "description": "URL of Radio station or Youtube live video url to stream with /radio command",
-      "value": "https://github.com/youtubeslgeekshow/radioplayer-bot",
+      "value": "http://209.133.216.3:7018/;?listening-from-radio-garden=1626420211758",
       "required": false
     },
     "REPLY_MESSAGE": {
