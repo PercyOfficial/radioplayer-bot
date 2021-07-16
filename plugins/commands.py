@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km | TGVCSETS
+radio player, Telegram Voice Chat Userbot
+Copyright (C) 2021  youtubeslgeekshow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -25,16 +25,16 @@ import sys
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
+HOME_TEXT = "<b> 🕺 Hello, [{}](tg://user?id={})\n\n I am 24×7 Non Stop Radio/Music Player 😋 .\n\n Hits /help for more details...</b>"
 HELP = """
-**User Commands:**
+**🏷 Common Commands ♻️**
 ▷/play **[song name]/[yt link]**: Reply to an audio file.
 ▷/dplay **[song name]:** Play music from Deezer.
 ▷/player:  Show current playing song.
 ▷/help: Show help for commands.
 ▷/playlist: Shows the playlist.
 
-**Admin Commands:**
+**🏷 Group Admin Commands 🔰**
 ▷/skip **[n]** ...  Skip current or n where n >= 2
 ▷/join: Join voice chat.
 ▷/leave: Leave current voice chat
@@ -57,14 +57,14 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("📦socure code 📦 ", url='https://github.com/youtubeslgeekshow/radioplayer-bot'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('🔔 Bot update Channel', url='https://t.me/sl_bot_zone'),
+        InlineKeyboardButton('👨‍💻 Bot support group', url='https://t.me/slbotzone'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
+        InlineKeyboardButton('🛠 Help & Commands 🛠', callback_data='help'),
 
     ]
     ]
@@ -78,14 +78,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("📦socure code 📦 ", url='https://github.com/youtubeslgeekshow/radioplayer-bot'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('🔔 Bot update Channel', url='https://t.me/sl_bot_zone'),
+            InlineKeyboardButton('👨‍💻 Bot support group', url='https://t.me/slbotzone'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('👨‍💻Developer ', url='https://t.me/supunma'),
         
         ]
     ]
